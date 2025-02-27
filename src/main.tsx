@@ -1,4 +1,3 @@
-import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
@@ -12,9 +11,7 @@ Amplify.configure(awsconfig)
 createRoot(document.getElementById('root')!).render(
   <>
     <Authenticator>
-      {/* <StrictMode> */}
-          <App />
-      {/* </StrictMode> */}
+      <App />
     </Authenticator>
   </>
 )
