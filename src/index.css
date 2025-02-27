@@ -1,13 +1,11 @@
-#root {
-    /* max-width: 1280px; */
-    margin: 0;
-    /* text-align: center; */
-    height: 100vh;
-    width: 100vw;
+html, body {
+    height: 100%; /* Ensure html and body take full height */
+    margin: 0; /* Remove default margin */
 }
 
 body{
     margin: 0;
+    align-items: center;
 }
 
 #root .amplify-ai-conversation__form {
@@ -17,11 +15,11 @@ body{
     padding: 10px;
 }
 
+
 #root {
     display: flex; /* Enable flexbox */
     justify-content: center; /* Center items horizontally */
     align-items: center; /* Center items vertically */
     height: 100%; /* Set height as needed */
     width: 100%; /* Set width as needed */
-    /* Optional: Add padding or margin if needed */
 }

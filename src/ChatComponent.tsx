@@ -3,6 +3,7 @@ import { useAIConversation } from './client';
 import ReactMarkdown from 'react-markdown';
 import rehypeHighlight from 'rehype-highlight';
 
+
 export default function ChatComponent() {
   const [
     {
