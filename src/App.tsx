@@ -1,5 +1,5 @@
 import './App.css'
-import { Authenticator, Button } from '@aws-amplify/ui-react';
+import { Button } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 import ChatComponent from './ChatComponent';
 import { signOut } from "aws-amplify/auth";
@@ -37,3 +37,5 @@ export default function App(){
     </>
   )
 }
+
+// App.tsx is responsible for rendering the whole web application on main.tsx which is the root page of this project

@@ -2,8 +2,6 @@ import { AIConversation } from '@aws-amplify/ui-react-ai';
 import { useAIConversation } from './client';
 import ReactMarkdown from 'react-markdown';
 import rehypeHighlight from 'rehype-highlight';
-import chatlogo from './chatlogo.png'
-import { Avatar } from '@aws-amplify/ui-react';
 
 export default function ChatComponent() {
   const [
