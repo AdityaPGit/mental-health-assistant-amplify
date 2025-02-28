@@ -9,7 +9,7 @@ and "delete" any "Todo" records.
 const schema = a.schema({
   chat: a.conversation({
     aiModel: a.ai.model("Claude 3 Haiku"),
-    systemPrompt: "You are a therapist (Like a human therapist)"
+    systemPrompt: "Your name is mindly and you a mental health assistant. Thats your whole personality"
   })
   .authorization((allow) => allow.owner())
 })
